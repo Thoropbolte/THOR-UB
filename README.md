@@ -1,8 +1,8 @@
-<h3 align="center">𝚃𝙷𝙴 𝙲𝙻𝙾𝙽𝙴 𝙾𝙵</h3>
-<h2 align="center"> <a href="https://github.com/THEONLYTHOR/THOR-USERBOT">🔥 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 🔥</a></h2>
+<h3 align="center">OWNER</h3>
+<h2 align="center"> <a href="https://t.me/thor_hoo">🔥 Ꭲᕼᗴ ᗰᏆᏀᕼᎢᎩ T̸H̸O̸R̸ 🔥</a></h2>
 
 
-<h1 align="center">⚡ 𝙼𝙰𝙵𝙸𝙰 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ⚡</h1>
+<h1 align="center">⚡ THOR 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ⚡</h1>
 
 
 [![THOR LOGO](https://telegra.ph/file/b61486075c6ef73dd0d12.jpg)](https://t.me/ThorBot_Support)
@@ -20,9 +20,9 @@
 
 <h4>⚜️DEPLOY TO HEROKU⚜️</h4>
 
-<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FThorBotIsOP%2FThorBotOP&template=https%3A%2F%2Fgithub.com%2FThorBotIsOP%2FThorBotOP" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
+<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FThoropbolte%2FTHOR-USERBOT&template=https%3A%2F%2Fgithub.com%2FThoropbolte%2FTHOR-USERBOT" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
 
-<h2 align="center"> <a href="https://github.com/THEONLYTHOR/THOR-BOT">⚡ 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 ⚡</a></h2>
+<h2 align="center"> <a href="https://github.com/Thoropbolte/THOR-USERBOT">⚡ 𝚃𝙷𝙴 THOR𝙱𝙾𝚃 ⚡</a></h2>
 </details>
 
 <details>
@@ -56,7 +56,7 @@ notifications in Update Channel.
   <summary> • 🌟GENERATE STRING SESSION🌟 • </summary>
 
 - Termux
-    - Clone `git clone https://github.com/THEONLYTHOR/THOR-BOT.git`
+    - Clone `git clone https://github.com/Thoropbolte/THOR-UB.git`
     - Then Do  `cd THOR-BOT`
     - Run String Generator By
            `bash string.sh`
@@ -64,7 +64,7 @@ notifications in Update Channel.
     - API ID, API HASH, PHONE NUMBER (WITH COUNTRY CODE)
  
 - Repl Run
-    - Click [Here](https://replit.com/@THEONLYTHOR/THORBOT#main.py) to open Repl run.
+    - Click [Here](https://replit.com/@Thoropbolte/THOR-UB#main.py) to open Repl run.
     - Click On Green Play Button.
     - Wait for a while then fill the details.
     - String will be saved in your Saved Message.
