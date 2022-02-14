@@ -1,4 +1,4 @@
-# credits to @mrconfused 
+# credits to @mrconfused lund
 
 import asyncio
 import datetime
@@ -68,7 +68,7 @@ def load_module(shortname):
         mod.borg = bot
         mod.thorbot = bot
         mod.edit_or_reply = edit_or_reply
-        mod.delete_mafia = delete_mafia
+        mod.delete_thor = delete_thor
         mod.media_type = media_type
         # support for thorbot originals
         sys.modules["thorbot.utils"] = userbot.utils
