@@ -1,4 +1,4 @@
-# credits to @mrconfused lund
+# credits to @mrconfused lund 𝚖𝚎𝚛𝚊 𝚌𝚛𝚎𝚍𝚒𝚝 
 
 import asyncio
 import datetime
