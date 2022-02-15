@@ -6,7 +6,7 @@ import os
 import sys
 import traceback
 
-from thorbot.utils import admin_cmd, edit_or_reply, sudo_cmd, delete_mafia
+from thorbot.utils import admin_cmd, edit_or_reply, sudo_cmd, delete_thor
 from userbot import *
 from userbot.cmdhelp import CmdHelp
 from userbot.Config import Config
@@ -20,16 +20,16 @@ async def _(event):
         return
     cmd = "".join(event.text.split(maxsplit=1)[1:])
     if not cmd:
-        return await delete_mafia(event, "`What should i execute?..`")
+        return await delete_thor(event, "`What should i execute?..`")
     mafiaevent = await edit_or_reply(event, "`Executing.....`")
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
     stdout, stderr = await process.communicate()
     result = str(stdout.decode().strip()) + str(stderr.decode().strip())
-    mafiauser = await event.client.get_me()
-    if mafiauser.username:
-        curruser = mafiauser.username
+    thoruser = await event.client.get_me()
+    if thoruser.username:
+        curruser = thoruser.username
     else:
         curruser = "thorbot"
     uid = os.geteuid()
@@ -57,8 +57,8 @@ async def _(event):
         return
     cmd = "".join(event.text.split(maxsplit=1)[1:])
     if not cmd:
-        return await delete_mafia(event, "`What should i run ?..`")
-    mafiaevent = await edit_or_reply(event, "`Running... Check Your Logger for result`")
+        return await delete_thor(event, "`What should i run ?..`")
+    thorevent = await edit_or_reply(event, "`Running... Check Your Logger for result`")
     old_stderr = sys.stderr
     old_stdout = sys.stdout
     redirected_output = sys.stdout = io.StringIO()
