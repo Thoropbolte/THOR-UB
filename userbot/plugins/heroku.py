@@ -10,7 +10,7 @@ from userbot import CMD_HELP
 from userbot.Config import Config
 from thorbot.utils import admin_cmd, sudo_cmd
 from userbot.cmdhelp import CmdHelp
-from userbot.helpers.extras import delete_mafia, edit_or_reply as eor
+from userbot.helpers.extras import delete_thor, edit_or_reply as eor
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -22,10 +22,10 @@ heroku_api = "https://api.heroku.com"
 HEROKU_APP_NAME = Config.HEROKU_APP_NAME
 HEROKU_API_KEY = Config.HEROKU_API_KEY
 
-mafia_logo = "./THEONLYTHOR/thorbot_logo.jpg"
+thor_logo = "./THEONLYTHOR/thorbot_logo.jpg"
 
-THOR_NAME = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
-h1m4n5hu0p = bot.uid
+THOR_NAME = str(ALIVE_NAME) if ALIVE_NAME else "Thor User"
+theonlythor = bot.uid
 
 @borg.on(
     admin_cmd(pattern="(set|get|del) var(?: |$)(.*)(?: |$)([\s\S]*)", outgoing=True)
@@ -189,8 +189,8 @@ async def _(dyno):
     except BaseException:
         return await dyno.reply(f"Make Sure Your Heroku App Name & API Key are filled correct. Visit @ThorBot_Support for help.", link_preview=False)
    # event = await eor(dyno, "Downloading Logs...")
-    mafia_data = app.get_log()
-    await eor(dyno, mafia_data, deflink=True, linktext=f"**🗒️ Heroku Logs of 💯 lines. 🗒️**\n\n🌟 **Bot Of :** [{THOR_NAME}](tg://user?id={h1m4n5hu0p})\n\n🚀** Pasted**  ")
+    thor_data = app.get_log()
+    await eor(dyno, thor_data, deflink=True, linktext=f"**🗒️ Heroku Logs of 💯 lines. 🗒️**\n\n🌟 **Bot Of :** [{THOR_NAME}](tg://user?id={theonlythor})\n\n🚀** Pasted**  ")
     
    
 
