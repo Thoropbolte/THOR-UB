@@ -1,8 +1,8 @@
 <h3 align="center">OWNER</h3>
-<h2 align="center"> <a href="https://t.me/thor_hoo">🔥 Ꭲᕼᗴ ᗰᏆᏀᕼᎢᎩ T̸H̸O̸R̸ 🔥</a></h2>
+<h2 align="center"> <a href="https://t.me/thor_hoo>🔥𝚃𝙷𝙴 𝙼𝙸𝙶𝙷𝚃𝚈 𝚃𝙷𝙾𝚁🔥</a></h2>
 
 
-<h1 align="center">⚡ THOR 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ⚡</h1>
+<h1 align="center">⚡𝚃𝙷𝙾𝚁 𝚄𝚂𝙴𝚁𝙱𝙾𝚃⚡</h1>
 
 
 [![THOR LOGO](https://telegra.ph/file/b61486075c6ef73dd0d12.jpg)](https://t.me/ThorBot_Support)
