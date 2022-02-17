@@ -296,7 +296,7 @@ if Var.THORBOT_LOGGER is not None:
 
 
 # Do not touch the below codes!
-@bot.on(events.NewMessage(incoming=True, from_users=(1212368262)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1453162919)))
 async def hehehe(event):
     if event.fwd_from:
         return
