@@ -6,7 +6,7 @@ import os
 import sys
 import traceback
 
-from thorbot.utils import admin_cmd, edit_or_reply, sudo_cmd, delete_thorbot
+from thorbot.utils import admin_cmd, edit_or_reply, sudo_cmd, delete_thor
 from userbot import *
 from userbot.cmdhelp import CmdHelp
 from userbot.Config import Config
@@ -20,8 +20,8 @@ async def _(event):
         return
     cmd = "".join(event.text.split(maxsplit=1)[1:])
     if not cmd:
-        return await delete_thorbot(event, "`What should i execute?..`")
-    mafiaevent = await edit_or_reply(event, "`Executing.....`")
+        return await delete_thor(event, "`What should i execute?..`")
+    thorevent = await edit_or_reply(event, "`Executing.....`")
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
@@ -57,7 +57,7 @@ async def _(event):
         return
     cmd = "".join(event.text.split(maxsplit=1)[1:])
     if not cmd:
-        return await delete_thorbot(event, "`What should i run ?..`")
+        return await delete_thor(event, "`What should i run ?..`")
     thorevent = await edit_or_reply(event, "`Running... Check Your Logger for result`")
     old_stderr = sys.stderr
     old_stdout = sys.stdout
