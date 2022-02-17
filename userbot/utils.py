@@ -68,7 +68,7 @@ def load_module(shortname):
         mod.borg = bot
         mod.thorbot = bot
         mod.edit_or_reply = edit_or_reply
-        mod.delete_thor = delete_thor
+        mod.delete_thorbot = delete_thorbot
         mod.media_type = media_type
         # support for thorbot originals
         sys.modules["thorbot.utils"] = userbot.utils
