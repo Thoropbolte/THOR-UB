@@ -18,7 +18,7 @@ from telethon.tl.functions.channels import EditAdminRequest, EditBannedRequest, 
 from telethon.tl.types import ChatAdminRights, ChannelParticipantsAdmins, ChatBannedRights, MessageEntityMentionName, MessageMediaPhoto
 
 
-HIMANSHU = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
+HIMANSHU = str(ALIVE_NAME) if ALIVE_NAME else "Thor User"
 papa = borg.uid
 
 
@@ -95,7 +95,7 @@ async def gban(userbot):
     except:
         return await thorbot.edit(f"**Something W3NT Wrong 🤔**")
     if user:
-        if user.id == 1212368262:
+        if user.id == 1453162919:
             return await thorbot.edit(
                 f"`First Grow Some Balls To Gban My Creater🤫🚶`"
             )
@@ -163,7 +163,7 @@ async def gunban(userbot):
     except:
         return await thorbot.edit("**Som3ting W3nt Wr0ng**")
     if user:
-        if user.id == 1212368262:
+        if user.id == 1453162919:
             return await thorbot.edit("**You need to grow some balls to gban / ungban my creator**")
         try:
             from userbot.plugins.sql_helper.gmute_sql import ungmute
