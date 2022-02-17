@@ -10,7 +10,7 @@ from userbot import CMD_HELP
 from userbot.Config import Config
 from thorbot.utils import admin_cmd, sudo_cmd
 from userbot.cmdhelp import CmdHelp
-from userbot.helpers.extras import delete_thorbot, edit_or_reply as eor
+from userbot.helpers.extras import delete_thor, edit_or_reply as eor
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
